@@ -548,6 +548,7 @@ section {
 
 .get-started .content p {
   font-size: 14px;
+  text-align: justify;
 }
 
 .get-started .php-email-form {
