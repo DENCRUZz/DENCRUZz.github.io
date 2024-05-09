@@ -690,6 +690,7 @@ section {
 .constructions .card-item p {
   color: var(--color-secondary);
   margin: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
