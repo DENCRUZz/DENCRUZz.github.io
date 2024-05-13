@@ -551,14 +551,24 @@ section {
 }
 
 .get-started .php-email-form {
-  background: #fff;
-  padding: 30px;
-  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(17, 17, 29, 0.575) 10%,
+    rgba(21, 21, 22, 0.527)
+  );
+  color: #dfdfdf;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 28px;
 }
 
 @media (max-width: 575px) {
   .get-started .php-email-form {
     padding: 20px;
+    background: #2f2c46c4;
+    color: #fff;
   }
 }
 
@@ -619,12 +629,13 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  border-radius: 0;
+  border-radius: 12px;
+  background-color: #b9b9b9;
 }
 
 .get-started .php-email-form input:focus,
 .get-started .php-email-form textarea:focus {
-  border-color: var(--color-primary);
+  outline: 1px solid #3d28ff;
 }
 
 .get-started .php-email-form input {
